@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-go-basic
     spec:
       containers:
-      - image: quay.io/productcicd/hacbs-apps:gbenhaim-app-devfile-sample-go-basic
+      - image: quay.io/productcicd/hacbs-apps:main
         imagePullPolicy: Always
         name: container-image
         resources: {}
